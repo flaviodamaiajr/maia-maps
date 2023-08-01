@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maia.Maps.Api", "Maia.Maps.Api\Maia.Maps.Api.csproj", "{78FE8AFD-1C16-4EDE-AFF2-07C01F69DD79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maia.Maps.Domain", "Maia.Maps.Domain\Maia.Maps.Domain.csproj", "{A99B203A-6BDC-4662-A47F-126B74EAE05A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maia.Maps.Infra.Data", "Maia.Maps.Infra.Data\Maia.Maps.Infra.Data.csproj", "{729EDAE3-D6B2-428C-858C-CBE40F3565E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maia.Maps.Domain.UnitTests", "Maia.Maps.Domain.UnitTests\Maia.Maps.Domain.UnitTests.csproj", "{5C64CC4A-804C-4ADC-9F05-1334CD38EF22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maia.Maps.Api.Tests", "Maia.Maps.Api.Tests\Maia.Maps.Api.Tests.csproj", "{B18287D2-0BD0-442E-9B3D-930A2BAA6447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78FE8AFD-1C16-4EDE-AFF2-07C01F69DD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FE8AFD-1C16-4EDE-AFF2-07C01F69DD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FE8AFD-1C16-4EDE-AFF2-07C01F69DD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FE8AFD-1C16-4EDE-AFF2-07C01F69DD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99B203A-6BDC-4662-A47F-126B74EAE05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99B203A-6BDC-4662-A47F-126B74EAE05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99B203A-6BDC-4662-A47F-126B74EAE05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99B203A-6BDC-4662-A47F-126B74EAE05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729EDAE3-D6B2-428C-858C-CBE40F3565E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729EDAE3-D6B2-428C-858C-CBE40F3565E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729EDAE3-D6B2-428C-858C-CBE40F3565E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729EDAE3-D6B2-428C-858C-CBE40F3565E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C64CC4A-804C-4ADC-9F05-1334CD38EF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C64CC4A-804C-4ADC-9F05-1334CD38EF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C64CC4A-804C-4ADC-9F05-1334CD38EF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C64CC4A-804C-4ADC-9F05-1334CD38EF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18287D2-0BD0-442E-9B3D-930A2BAA6447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18287D2-0BD0-442E-9B3D-930A2BAA6447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18287D2-0BD0-442E-9B3D-930A2BAA6447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18287D2-0BD0-442E-9B3D-930A2BAA6447}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFA4DD4C-D6F1-44A3-BD8C-0AD457203AE2}
+	EndGlobalSection
+EndGlobal
